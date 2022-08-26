@@ -1,30 +1,28 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="layout">
+    <navBar class="layout_nav" v-if="true" />
+    <banner />
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
+<script>
+import navBar from "./views/nav/nav.vue";
+import banner from "./views/banner/banner.vue";
+
+export default {
+  components: { navBar, banner },
+};
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+.layout {
+  position: relative;
+  width: 100%;
+  &_nav{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
   }
 }
 </style>

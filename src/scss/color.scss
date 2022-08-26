@@ -1,0 +1,78 @@
+/* 根据设计再做调整 */
+$primary-white-color: #fff;
+$primary-black-color: #000;
+$primary-color-old: #19a3ff;
+
+$default-success-color: #67c23a;
+$default-warning-color: #ff9708;
+$default-warning1-color: #ff983b;
+$default-error-color: #f96149;
+
+$default-header-color: #3c4044;
+
+$default-gray-color: #1e1f20;
+$default-gray1-color: #5d646a;
+$default-gray2-color: #7f858a;
+$default-gray3-color: #c0c5c8;
+
+/* figma色板 start */
+
+/* ref:https://www.figma.com/file/BNmUAiJgX4Cg3MicZ8RBhS/%E7%B1%B3%E6%B8%B8%E7%A4%BE3.0%E8%A7%84%E8%8C%83-%E5%A4%A7%E5%88%AB%E9%87%8E?node-id=0%3A1 */
+
+/* basic colors 通用颜色 */
+$basic-color-white: $primary-white-color;
+$basic-color-black: $primary-black-color;
+
+/* brand colors 品牌颜色 */
+$brand-color-theme: #1f2233; /* 主题色 */
+$brand-color-1: #f2feff;
+$brand-color-2: #e1f8fc;
+$brand-color-3: #b2f2ff;
+$brand-color-4: #4de1ff; /* 品牌色 */
+$brand-color-5: #1ac5ff; /* 辅助色 标签 */
+$brand-color-6: #0d9aff; /* 辅助色 文字 */
+$brand-color-7: #2076e5;
+$brand-color-0-before: #3df; /* 辅助色 渐变 前 */
+$brand-color-0-after: #80ffea; /* 辅助色 渐变 后 */
+
+/* gray colors 中性颜色 */
+$gray-color-theme: $brand-color-theme; /* 主文案、主icon */
+$gray-color-8: #272c47;
+$gray-color-7: #2f3652;
+$gray-color-6: #626d8c; /* 副文案、次级文案 */
+$gray-color-5: #8b96b2; /* 辅助文案、按钮icon */
+$gray-color-4: #abb6cc;
+$gray-color-3: #d3dae5; /* icon辅助配色 */
+$gray-color-2: #ebf0f5; /* 模块背景、分割线 */
+$gray-color-1: #f5f8fa; /* 页面背景、标签背景 */
+$gray-color-white: $basic-color-white;
+
+/* auxiliary colors 辅助颜色 */
+$auxiliary-color-pink-1: #ff6181; /* 警告色、红点 */
+$auxiliary-color-warm: #fa5f79; /* 运营标签/活动 */
+$auxiliary-color-orange-1: #ffa64d; /* 运营标签/活动 */
+$auxiliary-color-orange-2: #ffc013; /* 创作中心金刚区辅色 */
+$auxiliary-color-green-1: #1ee2ba; /* 创作中心任务辅色 */
+
+/* game colors 游戏颜色 */
+$game-color-honkai2-1: #57bddb;
+$game-color-honkai3-1: #01c3ff;
+$game-color-nxx-1: #a39ee0;
+$game-color-genshin-1: #d3bc8e;
+
+/* figma色板 end */
+
+$default-font-color: $gray-color-theme;
+$gray-font-color: $default-gray1-color;
+$gray-font-color1: $gray-color-5;
+$gray-font-color2: $default-gray3-color;
+$disabled-font-color: $default-gray3-color;
+
+$primary-color: $brand-color-6;
+
+/* pc 通用颜色 */
+$pc-gray-color1:#333; /* 重要文字 标题 */
+$pc-gray-color2:#666; /* 普通文字 内容 */
+$pc-gray-color3:#999; /* 次要文字 标注提示 */
+$pc-background-blue:#5bc1f9; /* pc通用蓝色 */
+$pc-menu-blue:#00c3ff; /* pc菜单蓝色 */

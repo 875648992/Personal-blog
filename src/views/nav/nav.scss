@@ -1,0 +1,13 @@
+.hao_navbar{
+  height: 60px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_title{
+    font-size: $large-font-size;
+    color: $primary-white-color;
+    font-weight: bold;
+  }
+}
